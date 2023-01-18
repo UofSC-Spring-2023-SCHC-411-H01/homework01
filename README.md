@@ -1,3 +1,3 @@
 # Terms, types, and functions
 
-Find some terms for the given types and then give the correct definition of the size of a binary tree. 
+Showing some types are inhabited and defining functions from inductive types. 

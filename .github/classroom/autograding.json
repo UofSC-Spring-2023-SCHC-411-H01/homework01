@@ -3,7 +3,7 @@
       {
         "name": "Checking for warnings or errors ",
         "setup": "lake update",
-        "run": "lake env lean Hw01.lean | echo ",
+        "run": "lake env lean Hw01.lean | echo 'hi'",
         "input" : "",
         "output": "[]",
         "comparison": "equal",

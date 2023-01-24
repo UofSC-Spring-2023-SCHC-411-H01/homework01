@@ -17,7 +17,7 @@ jobs:
         run: |
           curl -O --location https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh
           chmod u+x elan-init.sh
-          ./elan-init.sh -y --default-toolchain none --no-modify-path -y 
+          ./elan-init.sh -y --default-toolchain none --no-modify-path
           echo "Adding location $HOME/.elan/bin to PATH..."
           echo "$HOME/.elan/bin" >> $GITHUB_PATH
       - name: Test elan & lean are working

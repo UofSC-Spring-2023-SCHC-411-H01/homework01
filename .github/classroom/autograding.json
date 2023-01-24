@@ -2,8 +2,8 @@
     "tests": [
       {
         "name": "Checking for warnings or errors ",
-        "setup": "",
-        "run": "echo 'hello there'",
+        "setup": "lake update",
+        "run": "lake",
         "input" : "",
         "output": "[]",
         "comparison": "equal",

@@ -1,5 +1,5 @@
 /-
-Find explicit terms of the following types 
+  Find explicit terms of the following types 
 -/
 
 variable (α β γ : Type) 

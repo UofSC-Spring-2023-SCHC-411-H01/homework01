@@ -3,7 +3,7 @@
       {
         "name": "Checking for warnings or errors ",
         "setup": "lake update",
-        "run": "lake env lean Hw01.lean | echo 'hi'",
+        "run": "lake env lean Hw01.lean 2> awk '/warning/ && /error/'",
         "input" : "",
         "output": "[]",
         "comparison": "equal",

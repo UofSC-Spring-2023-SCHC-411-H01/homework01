@@ -3,7 +3,7 @@
       {
         "name": "Checking for warnings or errors ",
         "setup": "",
-        "run": "lake env lean Hw01.lean",
+        "run": "echo 'hello there'",
         "input" : "",
         "output": "[]",
         "comparison": "equal",

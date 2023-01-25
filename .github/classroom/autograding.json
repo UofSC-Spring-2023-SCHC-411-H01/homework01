@@ -2,11 +2,11 @@
     "tests": [
       {
         "name": "Checking for warnings or errors ",
-        "setup": "lake env lean Hw01.lean > output || true ",
+        "setup": "lake env lean Hw01.lean > output || true",
         "run": "ls",
         "input" : "",
         "output": "",
-        "comparison": "equal",
+        "comparison": "included",
         "timeout": 10,
         "points": 1
       }

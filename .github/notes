@@ -1,3 +1,0 @@
-Calling `lake env lean FILE` will throw an nonzero exit code if warnings or errors are present. 
-At this, the workflow build and the autograding run will both break off and fail. To prevent this, 
-we use `lake env lean FILE || true`. 

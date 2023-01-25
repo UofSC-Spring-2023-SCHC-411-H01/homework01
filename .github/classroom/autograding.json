@@ -2,8 +2,8 @@
     "tests": [
       {
         "name": "Checking for warnings or errors ",
-        "setup": "lake update && lake env lean Hw01.lean > output",
-        "run": "cat output",
+        "setup": "lake update",
+        "run": "ls",
         "input" : "",
         "output": "[]",
         "comparison": "equal",

@@ -27,6 +27,5 @@ jobs:
       - name: Initial lake build
         run: | 
           lake update && lake build   
-      - name: Test for errors or warnings 
-        run: | 
-          lake env lean Hw01.lean 
+      - name: classroom autograding
+        uses: education/autograding@v1

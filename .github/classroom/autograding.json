@@ -5,8 +5,8 @@
         "setup": "lake env lean Hw01.lean > output || true",
         "run": "ls",
         "input" : "",
-        "output": "nothing",
-        "comparison": "included",
+        "output": "",
+        "comparison": "exact",
         "timeout": 10,
         "points": 1
       }

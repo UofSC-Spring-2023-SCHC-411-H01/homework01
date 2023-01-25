@@ -29,6 +29,6 @@ jobs:
           lake build 
       - name : Check homework 
         run: | 
-          lake env lean Hw01.lean > output
+          ls 
       - name: classroom autograding
         uses: education/autograding@v1

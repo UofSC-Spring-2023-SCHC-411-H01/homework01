@@ -4,11 +4,11 @@
 
 variable (α β γ : Type) 
 
--- def prob01 : (α → β) → (β → γ) → (α → γ) := α 
+def prob01 : (α → β) → (β → γ) → (α → γ) := α 
 
--- def prob02 : (α → β → γ) → (α → β) → (α → γ) := sorry  
+def prob02 : (α → β → γ) → (α → β) → (α → γ) := sorry  
 
--- def prob03 : (α → α → β) → (β → γ) → α → β → γ := sorry 
+def prob03 : (α → α → β) → (β → γ) → α → β → γ := sorry 
 
 /- 
 Below is a definition of an unlabeled binary tree in Lean. 

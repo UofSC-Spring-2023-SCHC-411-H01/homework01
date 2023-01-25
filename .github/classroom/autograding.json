@@ -3,7 +3,7 @@
       {
         "name": "Checking for warnings or errors ",
         "setup": "lake env lean Hw01.lean > output || true ",
-        "run": "ls",
+        "run": "awk '/warning/ && /error/' output",
         "input" : "",
         "output": "[]",
         "comparison": "equal",

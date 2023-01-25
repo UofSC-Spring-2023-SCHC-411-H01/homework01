@@ -6,7 +6,7 @@
         "run": "ls",
         "input" : "",
         "output": "",
-        "comparison": "included",
+        "comparison": "equal",
         "timeout": 10,
         "points": 1
       }

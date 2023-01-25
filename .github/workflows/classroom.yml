@@ -2,8 +2,8 @@ name: GitHub Classroom Workflow
 
 on: 
   push:
-    # paths:
-    # - 'Hw*.lean'
+    paths:
+    - 'Hw*.lean'
 
 jobs:
   build:

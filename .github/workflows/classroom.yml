@@ -26,9 +26,6 @@ jobs:
           lean --version
       - name: Initial lake build
         run: | 
-          lake build 
-      - name : Check homework 
-        run: | 
-          lake env lean Hw01.lean || true
+          lake update && lake build   
       - name: classroom autograding
         uses: education/autograding@v1
